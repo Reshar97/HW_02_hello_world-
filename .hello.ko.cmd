@@ -1,0 +1,1 @@
+cmd_/home/student/HW_02_hello_world/hello.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/student/HW_02_hello_world/hello.ko /home/student/HW_02_hello_world/hello.o /home/student/HW_02_hello_world/hello.mod.o;  true
